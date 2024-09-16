@@ -57,6 +57,18 @@ Resultado de Aprendizaje 5: "Desarrolla juegos 2D y 3D sencillos utilizando moto
 
 ------
 
+Programadores, diseñadores y:
+
+- Compositores
+- Guionistas
+- Actores de doblaje
+- Animadores 3D y modelos
+- Traductores
+- Especialistas en marketing
+- ...
+
+------
+
 ### 1.1. Plataformas
 
 ------
@@ -66,6 +78,8 @@ Resultado de Aprendizaje 5: "Desarrolla juegos 2D y 3D sencillos utilizando moto
   - **hardware adicional**: chips, sensores...
   - **Soportes**: cartuchos, discos ópticos, tarjetas de memoria...
   - **Movilidad**: sobremesa, portátiles o híbridas.
+
+------
 
 - **Máquinas Arcade**: máquinas de pago.
   - Antiguamente muy populares.
