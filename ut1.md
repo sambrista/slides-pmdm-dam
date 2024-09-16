@@ -13,14 +13,14 @@ Resultado de Aprendizaje 4: "Selecciona y prueba motores de juegos analizando la
 ------
 
 - Identificar los elementos que componen la arquitectura de un juego 2D y 3D.
-- Analizar los componentes de un motor de juegos.
-- Analizar entornos de desarrollo de juegos.
+- <!-- .element: class="fragment" -->Analizar los componentes de un motor de juegos.
+- <!-- .element: class="fragment" -->Analizar entornos de desarrollo de juegos.
 
 ------
 
 - Analizar diferentes motores de juegos, sus características y funcionalidades.
-- Identificar los bloques funcionales de un juego existente.
-- Reconocer la representación lógica y espacial de una escena gráfica sobre un juego existente.
+- <!-- .element: class="fragment" -->Identificar los bloques funcionales de un juego existente.
+- <!-- .element: class="fragment" -->Reconocer la representación lógica y espacial de una escena gráfica sobre un juego existente.
 
 ------
 
@@ -29,21 +29,21 @@ Resultado de Aprendizaje 5: "Desarrolla juegos 2D y 3D sencillos utilizando moto
 ------
 
 - Establecer la lógica de un nuevo juego.
-- Crear los objetos necesarios para el juego y definir sus características.
-- Crear las escenas del juego y distribuir los objetos en las mismas.
-- Crear materiales para determinar las propiedades finales de la superficie de un objeto.
+- <!-- .element: class="fragment" -->Crear los objetos necesarios para el juego y definir sus características.
+- <!-- .element: class="fragment" -->Crear las escenas del juego y distribuir los objetos en las mismas.
+- <!-- .element: class="fragment" -->Crear materiales para determinar las propiedades finales de la superficie de un objeto.
 
 ------
 
 - Establecer las propiedades físicas de los objetos.
-- Incorporar sonido a los diferentes eventos del juego.
-- Utilizar cámaras y configurar la iluminación.
+- <!-- .element: class="fragment" -->Incorporar sonido a los diferentes eventos del juego.
+- <!-- .element: class="fragment" -->Utilizar cámaras y configurar la iluminación.
 
 ------
 
 - Desarrollar e implantar juegos para dispositivos móviles.
-- Realizar pruebas de funcionamiento y optimización de los juegos desarrollados.
-- Documentar las fases de diseño y desarrollo de los juegos creados.
+- <!-- .element: class="fragment" -->Realizar pruebas de funcionamiento y optimización de los juegos desarrollados.
+- <!-- .element: class="fragment" -->Documentar las fases de diseño y desarrollo de los juegos creados.
 
 ---
 
@@ -53,19 +53,19 @@ Resultado de Aprendizaje 5: "Desarrolla juegos 2D y 3D sencillos utilizando moto
 
 - Un videojuego, según la RAE, es un "Juego electrónico que se visualiza en una pantalla".
 
-- De circuitos electrónicos básicos a superproducciones millonarias
+- <!-- .element: class="fragment" -->De circuitos electrónicos básicos a superproducciones millonarias
 
 ------
 
 Programadores, diseñadores y:
 
-- Compositores
-- Guionistas
-- Actores de doblaje
-- Animadores 3D y modelos
-- Traductores
-- Especialistas en marketing
-- ...
+- <!-- .element: class="fragment" -->Compositores
+- <!-- .element: class="fragment" -->Guionistas
+- <!-- .element: class="fragment" -->Actores de doblaje
+- <!-- .element: class="fragment" -->Animadores 3D y modelos
+- <!-- .element: class="fragment" -->Traductores
+- <!-- .element: class="fragment" -->Especialistas en marketing
+- <!-- .element: class="fragment" -->...
 
 ------
 
@@ -73,42 +73,47 @@ Programadores, diseñadores y:
 
 ------
 
-- **Ordenadores** ("microordenadores" en los años 80): computadoras de uso general.
-- **Videoconsolas**: máquinas diseñadas específicamente para jugar videojuegos en el ámbito doméstico.
-  - **hardware adicional**: chips, sensores...
-  - **Soportes**: cartuchos, discos ópticos, tarjetas de memoria...
-  - **Movilidad**: sobremesa, portátiles o híbridas.
+- Ordenadores ("microordenadores" en los años 80): computadoras de uso general.
+- <!-- .element: class="fragment" -->Videoconsolas: máquinas diseñadas específicamente para jugar videojuegos en el ámbito doméstico.
+  - <!-- .element: class="fragment" -->hardware adicional: chips, sensores...
+  - <!-- .element: class="fragment" -->Soportes: cartuchos, discos ópticos, tarjetas de memoria...
+  - <!-- .element: class="fragment" -->Movilidad: sobremesa, portátiles o híbridas.
 
 ------
 
-- **Máquinas Arcade**: máquinas de pago.
-  - Antiguamente muy populares.
-- **Smartphones y tablets**
+- Máquinas Arcade: máquinas de pago.
+  - <!-- .element: class="fragment" -->Antiguamente muy populares
+- <!-- .element: class="fragment" -->Smartphones y tablets
 
 ------
 
-!!!info Para saber más
-    En Sevilla se encuentra [Arcade Planet](https://arcadeplanet.es/), uno de los salones arcade más grandes de Europa, donde por poco dinero podemos disfrutar de una gran colección de máquinas arcade (nuevas, antiguas, de importación...).
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+    
+[Arcade Planet](https://arcadeplanet.es/)
 
 ------
 
-*[FPS]: First Person Shooter
-!!!info Para saber más
-    El videojuego Doom, desarrollado principalmente por John Carmack y John Romero en 1993, es uno de los videojuegos más famosos y se considera uno de los pioneros del género [FPS]. En 1999 su motor fue publicado como software libre y desde entonces entusiastas de la programación y la electrónica han intentado ejecutarlo en dispositivos de todo tipo. Podemos encontrar algunos ejemplos en: [Los lugares más insólitos donde se ha ejecutado 'Doom': cajeros, tests de embarazo, robots de cocina, osciloscopios o 'Minecraft'](https://www.xataka.com/videojuegos/lugares-insolitos-donde-se-ha-ejecutado-doom-cajeros-tests-embarazo-robots-cocina-osciloscopios-minecraft)
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+[Los lugares más insólitos donde se ha ejecutado 'Doom': cajeros, tests de embarazo, robots de cocina, osciloscopios o 'Minecraft'](https://www.xataka.com/videojuegos/lugares-insolitos-donde-se-ha-ejecutado-doom-cajeros-tests-embarazo-robots-cocina-osciloscopios-minecraft)
 
 ------
 
 Plafatormas más populares:
 
-- Ordenadores:
-  - PC con Microsoft Windows
-- Videoconsolas
-  - Sony PlayStation 5
-  - Xbox Series X
-  - Nintendo Switch (Híbrida)
-- Smartphones y tablets:
-  - Dispositivos Apple (iPhone / iPad)
-  - Dispositivos con Sistema Operativo Android.
+- <!-- .element: class="fragment" -->Ordenadores:
+  - <!-- .element: class="fragment" -->PC con Microsoft Windows
+- <!-- .element: class="fragment" -->Videoconsolas
+  - <!-- .element: class="fragment" -->Sony PlayStation 5
+  - <!-- .element: class="fragment" -->Xbox Series X
+  - <!-- .element: class="fragment" -->Nintendo Switch (Híbrida)
+- <!-- .element: class="fragment" -->Smartphones y tablets:
+  - <!-- .element: class="fragment" -->Dispositivos Apple (iPhone / iPad)
+  - <!-- .element: class="fragment" -->Dispositivos con Sistema Operativo Android.
 
 ------
 
@@ -127,51 +132,123 @@ Ejemplos son Atari Pong o Magnavox Oddisey.
 ------
 
 - Desarrollo de juegos como software
-- Chips de memoria contenidos en cartuchos intercambiables.
-- Mejora de las características técnicas
-- Salones arcade
-- Resultado: BOOM del mercado de los videojuegos.
+- <!-- .element: class="fragment" -->Chips de memoria contenidos en cartuchos intercambiables.
+- <!-- .element: class="fragment" -->Mejora de las características técnicas
+- <!-- .element: class="fragment" -->Salones arcade
+- <!-- .element: class="fragment" -->Resultado: BOOM del mercado de los videojuegos.
 
 ------
 
-Ejemplos de consolas son Atari 2600 y Colecovision.
-Ejemplos de juegos son PacMan, Pole Position, Space Invaders y Asteroids.
+Ejemplos de consolas son:
+
+- <!-- .element: class="fragment" -->Atari 2600
+- <!-- .element: class="fragment" -->Colecovision
+
+------
+
+Ejemplos de juegos son:
+
+- <!-- .element: class="fragment" -->Pacman
+- <!-- .element: class="fragment" -->Pole Position
+- <!-- .element: class="fragment" -->Space Invaders
+- <!-- .element: class="fragment" -->Asteroids
 
 ------
 
 #### 80s: Crisis del 83 y época de los 8 bits
 
-- Resultado del boom
-- Saturación de consolas y juegos
-- Juegos de dudosa calidad
-- Consecuencia: Crisis del 83-85.
+- <!-- .element: class="fragment" -->Resultado del boom
+- <!-- .element: class="fragment" -->Saturación de consolas y juegos
+- <!-- .element: class="fragment" -->Juegos de dudosa calidad
+- <!-- .element: class="fragment" -->Consecuencia: Crisis del 83-85.
 
 ------
 
-!!!info Para saber más
-    En 1983 se enterraron en el desierto de Alamogordo en EEUU gran cantidad de copias de los juegos de Atari *ET el Extraterrestre* y *Pacman*, ya que se fabricaron millones de unidades pero las ventas fueron mucho peor de lo esperado (menos de la mitad en el caso de Pacman), a lo que se sumó las devoluciones por la pésima calidad de los productos.
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+Dice la leyenda que hay millones de videojuegos de Atari ET el extraterrestre y Pacman enterrados en el desierto de Alamogordo
 
 ------
 
-En Japón triunfaron las consolas de 8 bits, con la Nintendo Famicom (llamada Nintendo Entertainment System o NES en occidente) como consola estrella. Esta consola también triunfó en Estados Unidos tras la crisis. Por otro lado, en Europa tuvieron más éxito los microordenadores, como el Commodore 64, el Spectrum o el Amstrad CPC.
+- Japón: Consolas de 8 bits: Famicom (NES)
+- <!-- .element: class="fragment" -->Estados Unidos (tras la crisis): NES
+- <!-- .element: class="fragment" -->Europa: microordenadores (Commodore 64, Spectrum, Amstrad CPC...)
 
-!!!info Para saber más
-    Nintendo llevó una política de control de calidad muy rigurosa sobre los juegos que se publicaban para su consola. Para ello diseño un sello de calidad que hoy dia sigue luciendo en sus juegos.
+------
 
-!!!info Para saber más
-   Entre 1983 y 1992 aproximadamete tuvo lugar la conocida como **Edad de oro del software español**. La llegada de los microordenadores domésticos supuso la primera toma de contacto con la programación para muchos usuarios, que se interesaron en crear sus propios juegos. España llego a ser uno de los mayores productores europeos de videojuegos para microordenaores de 8 bits (principalmente para Spectrum).
 
-A finales de esta década se lanza la Nintendo Game Boy, que se considera la primera videoconsola portátil exitosa, y los microordenadores empiezan a ser reemplazados por ordenadores basados en el PC de IBM.
+<!-- .slide: data-background-color="#dddddd" -->
 
-Ejemplos de videojuegos de esta época son Super Mario Bros, Bubble Bobble o Tetris.
+# Para saber más
+
+Sello de calidad de Nintendo
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+1983 - 1992: **Edad de oro del software español**
+
+------
+
+A finales de esta década:
+
+- <!-- .element: class="fragment" -->Primera videoconsola portátil exitosa: Nintendo Game Boy
+- <!-- .element: class="fragment" -->Se populariza el PC de IBM (y clónicos) frente a los microordenadores
+
+------
+
+Ejemplos de videojuegos:
+
+- <!-- .element: class="fragment" -->Super Mario Bros
+- <!-- .element: class="fragment" -->Bubble Bobble
+- <!-- .element: class="fragment" -->Tetris.
+- <!-- .element: class="fragment" -->Manic Miner
+- <!-- .element: class="fragment" -->La Abadía del Crimen
+
+------
 
 #### 90s: Generación de 16 bits y revolución del 3D
 
-A finales de los 80 y principio de los 90s aparecen las primeras consolas de 16 bits (Super Nintendo, Mega Drive de Sega...), las cuales suponen una mejora en gráficos, colores, sonido... considerable. Otras innovaciones fueron el uso de CD-ROMs como soporte de juegos, en lugar de cartuchos o disquettes, el uso de joysticks analógicos o la vibración como refuerzo háptico. Sin embargo, la revolución principal fue la popularización de los juegos con gráficos 3D, ya sea en PCs con tarjeta gráfica 3D o en consolas como la Sony Playstation, de 32 bits, o la Nintendo 64, de 64 bits.
+------
 
-Ejemplos de videojuegos de este periodo son Super Mario Kart, Sonic the HedgeHog, Final Fantasy VII, Metal Gear Solid, Super Mario 64, The Legend of Zelda, Ocarina of Time, Starcraft y Quake.
+- Primeras consolas de 16 bits (Super Nintendo, Mega Drive de Sega...)
+  - Mejora en gráficos, colores, sonido...
+- CD-ROMs frente a cartuchos y disquettes
+- Joysticks analógicos
+- Vibración
+
+------
+
+**GRÁFICOS 3D**
+
+- <!-- .element: class="fragment" -->PCs con tarjeta gráfica 3D
+- <!-- .element: class="fragment" -->consolas
+  - <!-- .element: class="fragment" -->Sony Playstation (32 bits)
+  - <!-- .element: class="fragment" -->Nintendo 64 (64 bits)
+
+------
+
+Ejemplos de videojuegos:
+
+- <!-- .element: class="fragment" -->Super Mario Kart
+- <!-- .element: class="fragment" -->Sonic the HedgeHog
+- <!-- .element: class="fragment" -->Final Fantasy VII
+- <!-- .element: class="fragment" -->Metal Gear Solid
+- <!-- .element: class="fragment" -->Super Mario 64
+- <!-- .element: class="fragment" -->The Legend of Zelda, Ocarina of Time
+- <!-- .element: class="fragment" -->Starcraft
+- <!-- .element: class="fragment" -->Quake.
+
+------
 
 #### 2000 hasta la actualidad: internet y smartphones
+
+------
 
 Desde la aparición de los gráficos 3D no se ha producido ninguna otra revolución de tal envergadura. Las plataformas han ido mejorando sus capacidades gráficas y de procesamiento, de modo que los gráficos son cada vez más realistas y permiten representar más elementos en pantalla, y la llegada de internet a los hogares supuso la popularización del juego en línea, que ha llegado a superar en muchos casos al juego local.
 
