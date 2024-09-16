@@ -217,10 +217,12 @@ Ejemplos de videojuegos:
 ------
 
 - Primeras consolas de 16 bits (Super Nintendo, Mega Drive de Sega...)
-  - Mejora en gráficos, colores, sonido...
-- CD-ROMs frente a cartuchos y disquettes
-- Joysticks analógicos
-- Vibración
+  - <!-- .element: class="fragment" -->Mejora en gráficos, colores, sonido...
+- <!-- .element: class="fragment" -->CD-ROMs frente a cartuchos y disquettes
+- <!-- .element: class="fragment" -->Joysticks analógicos
+- <!-- .element: class="fragment" -->Vibración
+
+<!-- .element: class="fragment" -->... Pero la gran revolución fue...
 
 ------
 
@@ -250,43 +252,45 @@ Ejemplos de videojuegos:
 
 ------
 
-Desde la aparición de los gráficos 3D no se ha producido ninguna otra revolución de tal envergadura. Las plataformas han ido mejorando sus capacidades gráficas y de procesamiento, de modo que los gráficos son cada vez más realistas y permiten representar más elementos en pantalla, y la llegada de internet a los hogares supuso la popularización del juego en línea, que ha llegado a superar en muchos casos al juego local.
 
-Por otro lado, aparecen los teléfonos móviles con Java y posteriormente los smartphones Apple y Android, que suponen la llegada de una nueva plataforma con identidad propia.
+- Mejora de capacidades gráficas y de procesamiento
+  - <!-- .element: class="fragment" -->Gráficos más realistas
+  - <!-- .element: class="fragment" -->Más elementos en pantalla
+- <!-- .element: class="fragment" -->Internet: juego en línea
+- <!-- .element: class="fragment" -->Teléfonos móviles con Java, smartphones y tablets.
+
+------
 
 Algunas de las tendencias actuales son:
 
-- **DLCs y compras en el juego**: internet posibilita que tras adquirir el juego se pueda comprar contenido descargable (niveles, personajes, skins...) e incluso items (armas, armaduras...) que dan ventajas respecto al resto de jugadores. En el caso de los videojuegos para móviles, es muy común que estos requieran esperar grandes cantidades de tiempo, que se pueden acortar pagando.
-- **Stores y abandono del modelo físico**: las plataformas permiten comprar y descargar juegos online, y las ofertas suelen ser más agresivas que los formatos tradicionales de discos, cartuchos... de modo que estos formatos son cada vez menos populares. Algunas plataformas ofrecen suscripciones, de modo que una mensualidad da acceso ilimitado a un catálogo de títulos.
-- **Realidad Virtual**: Han aparecido plataformas que ofrecen realidad virtual a través de gafas, como Playstation VR o Meta Quest. Pese a que la experiencia es revolucionaria, su alto precio frena su difusión entre los jugadores.
-- **Juego en la nube**: Esta tecnología consiste en que el juego se ejecuta en servidores online, haciendo prácticamente independiente el juego del dispositivo en el que se juega. Esto permite convertir cualquier dispositivo en una videoconsola o PC de última generación, o jugar en una plataforma a juegos de otras. Algunos ejemplos son Google Stadia (fallido), Amazon Luna o Playstation Now. 
-- **Boom de la nostalgia**: Se ha popularizado el desarrollo de versiones remasterizadas de videojuegos antiguos, de remakes (videojuegos hechos de nuevo con la tecnología actual) y de videojuegos de estética pixelada.
-- **Auge de los juegos indies**: los videojuegos indies o independientes son videojuegos realizados por grupos reducidos de desarrolladores o empresas pequeñas, que se caracterizan por ser innovadores y tener un precio menor frente a los títulos de las grandes distribuidoras. En ocasiones recaudan el dinero necesario para su desarrollo a partir de crowdfunding. En los últimos años han aparecido títulos muy exitosos como Minecraft, Stardew Valley o Undertale.
+- <!-- .element: class="fragment" -->DLCs y compras en el juego
+- <!-- .element: class="fragment" -->Stores y abandono del modelo físico
+- <!-- .element: class="fragment" -->Realidad Virtual
+- <!-- .element: class="fragment" -->Juego en la nube
+- <!-- .element: class="fragment" -->Boom de la nostalgia
+- <!-- .element: class="fragment" -->Auge de los juegos indies
+
+------
 
 ### 1.3. Desarrollo y publicación
 
+------
+
 #### Desarrollo
 
-El proceso de desarrollo de un videojuego varía en función de la plataforma para la que este se desarrolla, de modo que uno de los primeros pasos es elegir para qué plataforma o plataformas queremos desarrollar el juego. En el caso de plataformas cerradas, en las que la compañía controla los videojuegos que se lanzan para esta, es posible que tengamos que contactar con la compañía y esperar a que acepten nuestro proyecto de videojuego.
+------
 
-El siguiente paso consiste en decidir si vamos a utilizar un motor de juego o trabajar directamente con el SDK (Software Development Kit, Kit de Desarrollo de Software) de la plataforma. Un motor de juegos es un framework diseñado para el desarrollo de juegos, que incluye librerías y sofware de soporte (como editores de niveles) que facilitan la tarea. Tanto en el caso del motor como del SDK, es posible que haya que pagar o registrarse como desarrollador para tener acceso a él.
+1. Elegir plataforma (y pedir permiso)
+2. <!-- .element: class="fragment" -->¿SDK? ¿Motor de juego?
+3. <!-- .element: class="fragment" -->Desarrollo y prueba
+  - <!-- .element: class="fragment" -->Emulador
+  - <!-- .element: class="fragment" -->Dispositivo
+  - <!-- .element: class="fragment" -->Devkit
+4. <!-- .element: class="fragment" -->Generar y publicar juego
 
-Una vez se dispone del motor o el SDK comienza el desarrollo propiamente dicho. Este se lleva a cabo en ordenadores, pero para hacer pruebas, debug... se puede usar:
-
-- Un emulador, si está disponible.
-- Un dispositivo de dicha plataforma, si tenemos acceso y este nos permite ejecutar nuestras propias aplicaciones.
-- Un kit de desarrollo (o devkit), que es una versión ampliada para desarrollo del dispositivo de la plataforma.
-
-Por último, una vez se ha desarrollado el juego, este puede ser generado y publicado.
+------
 
 #### Publicación
 
-La publicación consiste en la puesta a disposición del público de nuestro videojuego, y varía según el tipo de dispositivo. En general las opciones son:
-
-##### Stores digitales
-
-Se contacta con una store para que esta distribuya el juego a cambio normalmente de una comisión. Es el modo de publicar y distribuir más utilizado hoy en día.
-
-##### Venta de copias físicas
-
-Este método hoy en día sólo es popular (y cada vez menos) en videoconsolas. Se necesitaría una empresa que fabrique las copias físicas y otra (que puede ser la misma) que se encargue de la distribución. La inversión necesaria para la producción junto con la tendencia de los usuarios a comprar copias digitales hace que esta opción hoy en día sólo sea atractiva para videojuegos de grandes compañías.
+- <!-- .element: class="fragment" -->Stores digitales
+- <!-- .element: class="fragment" -->Copias físicas
