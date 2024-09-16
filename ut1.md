@@ -98,23 +98,46 @@ Plafatormas más populares:
 
 ------
 
-<!--
 ### 1.2. Evolución
+
+------
 
 #### 70s: Orígenes del videojuego
 
-Las primeras videoconsolas aparecieron a principios de los 70. Eran dispositivos que se conectaban a la televisión, integraban los controles en la propia consola y ofrecian juegos muy básicos implementados con circuitos electrónicos. Ejemplos son Atari Pong o Magnavox Oddisey.
+Las primeras videoconsolas aparecieron a principios de los 70. Eran dispositivos que se conectaban a la televisión, integraban los controles en la propia consola y ofrecian juegos muy básicos implementados con circuitos electrónicos.
 
-Posteriormente se comenzó a desarrollar los juegos como software, almacenándolos habitualmente en chips de memoria contenidos en cartuchos intercambiables. Esto, unido a la mejora de las características técnicas de las consolas  y la creciente popularidad de los salones arcade, produjo un boom del mercado de los videojuegos.
+------
 
-Ejemplos de consolas son Atari 2600 y Colecovision, y ejemplos de juegos son PacMan, Pole Position, Space Invaders y Asteroids.
+Ejemplos son Atari Pong o Magnavox Oddisey.
+
+------
+
+- Desarrollo de juegos como software
+- Chips de memoria contenidos en cartuchos intercambiables.
+- Mejora de las características técnicas
+- Salones arcade
+- Resultado: BOOM del mercado de los videojuegos.
+
+------
+
+Ejemplos de consolas son Atari 2600 y Colecovision.
+Ejemplos de juegos son PacMan, Pole Position, Space Invaders y Asteroids.
+
+------
 
 #### 80s: Crisis del 83 y época de los 8 bits
 
-Entre finales de la década de los 70 y principios de los 80 se produjo el mecionado boom en la industria del videojuego. Como consecuencia, aparecieron multitud de videoconsolas diferentes y se desarrollaron cientos de videojuegos, la mayoría de dudosa calidad. Se cree que estos factores produjeron un bajón en las ventas que supuso la quiebra o la venta de multitud de empresas como Coleco o la propia Atari, sobretodo en Estados Unidos, y que duró hasta 1985.
+- Resultado del boom
+- Saturación de consolas y juegos
+- Juegos de dudosa calidad
+- Consecuencia: Crisis del 83-85.
+
+------
 
 !!!info Para saber más
     En 1983 se enterraron en el desierto de Alamogordo en EEUU gran cantidad de copias de los juegos de Atari *ET el Extraterrestre* y *Pacman*, ya que se fabricaron millones de unidades pero las ventas fueron mucho peor de lo esperado (menos de la mitad en el caso de Pacman), a lo que se sumó las devoluciones por la pésima calidad de los productos.
+
+------
 
 En Japón triunfaron las consolas de 8 bits, con la Nintendo Famicom (llamada Nintendo Entertainment System o NES en occidente) como consola estrella. Esta consola también triunfó en Estados Unidos tras la crisis. Por otro lado, en Europa tuvieron más éxito los microordenadores, como el Commodore 64, el Spectrum o el Amstrad CPC.
 
