@@ -123,7 +123,10 @@ Plafatormas más populares:
 
 #### 70s: Orígenes del videojuego
 
-Las primeras videoconsolas aparecieron a principios de los 70. Eran dispositivos que se conectaban a la televisión, integraban los controles en la propia consola y ofrecian juegos muy básicos implementados con circuitos electrónicos.
+- <!-- .element: class="fragment" -->Conectadas a una TV.
+- <!-- .element: class="fragment" -->Controles en la propia consola
+- <!-- .element: class="fragment" -->Juegos muy básicos
+- <!-- .element: class="fragment" -->Circuitos electrónicos.
 
 ------
 
