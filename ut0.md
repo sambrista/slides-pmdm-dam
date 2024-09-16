@@ -50,7 +50,7 @@ Este módulo lleva asociados **5 resultados de aprendizaje**, es decir, cosas qu
 
 - **RA2**: Desarrolla aplicaciones para dispositivos móviles analizando y empleando las tecnologías y librerías específicas.
 
---
+------
 
 - **RA3**: Desarrolla programas que integran contenidos multimedia analizando y empleando las tecnologías y librerías específicas.
 
