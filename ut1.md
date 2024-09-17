@@ -278,16 +278,16 @@ Algunas de las tendencias actuales son:
 ### 1.3. Géneros
 
 - <!-- .element: class="fragment" -->Acción: GTA V, Devil May Cry 5
-- <!-- .element: class="fragment" -->Aventura: The Legend of Zelda Breath of the Wild, Life is Strange
+- <!-- .element: class="fragment" -->Aventura: The Legend of Zelda Breath of the Wild, Detroit: Become Human
 - <!-- .element: class="fragment" -->RPG: Final Fantasy VII, The Witcher 3
-- <!-- .element: class="fragment" -->MMORPG: World of Warcraft, Guild Wars
+- <!-- .element: class="fragment" -->MMORPG: World of Warcraft, Guild Wars 2
 - <!-- .element: class="fragment" -->FPS: Call of Duty: Modern Warfare , DOOM
 
 ------
 
 - <!-- .element: class="fragment" -->Plataformas: Super Mario Oddisey, Rayman Origins
 - <!-- .element: class="fragment" -->Lucha: Mortal Kombat 11, Street Fighter V
-- <!-- .element: class="fragment" -->Deportes: EA FC 2024, NBA 2K23
+- <!-- .element: class="fragment" -->Deportes: EA Sports FC 25, NBA 2K25
 - <!-- .element: class="fragment" -->Carreras: Mario Kart 8, Forza Horizon 5
 
 ------
