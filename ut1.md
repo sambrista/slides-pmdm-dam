@@ -275,7 +275,31 @@ Algunas de las tendencias actuales son:
 
 ------
 
-### 1.3. Desarrollo y publicación
+### 1.3. Géneros
+
+- <!-- .element: class="fragment" -->Acción: GTA V, Devil May Cry 5
+- <!-- .element: class="fragment" -->Aventura: The Legend of Zelda Breath of the Wild, Life is Strange
+- <!-- .element: class="fragment" -->RPG: Final Fantasy VII, The Witcher 3
+- <!-- .element: class="fragment" -->MMORPG: World of Warcraft, Guild Wars
+- <!-- .element: class="fragment" -->FPS: Call of Duty: Modern Warfare , DOOM
+
+------
+
+- <!-- .element: class="fragment" -->Plataformas: Super Mario Oddisey, Rayman Origins
+- <!-- .element: class="fragment" -->Lucha: Mortal Kombat 11, Street Fighter V
+- <!-- .element: class="fragment" -->Deportes: EA FC 2024, NBA 2K23
+- <!-- .element: class="fragment" -->Carreras: Mario Kart 8, Forza Horizon 5
+
+------
+
+- <!-- .element: class="fragment" -->RTS: StarCraft II, Age of Empires IV
+- <!-- .element: class="fragment" -->Simulación: The Sims 4, Microsoft Flight Simulator
+- <!-- .element: class="fragment" -->Survival Horror: Resident Evil 2 Remake, Silent Hill 2
+- <!-- .element: class="fragment" -->Metroidvania: Hollow Knight, Metroid Dread
+
+------
+
+### 1.4. Desarrollo y publicación
 
 ------
 
