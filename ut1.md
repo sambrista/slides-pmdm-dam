@@ -247,7 +247,7 @@ Ejemplos de videojuegos:
 - <!-- .element: class="fragment" -->Super Mario 64
 - <!-- .element: class="fragment" -->The Legend of Zelda, Ocarina of Time
 - <!-- .element: class="fragment" -->Starcraft
-- <!-- .element: class="fragment" -->Quake.
+- <!-- .element: class="fragment" -->Quake
 
 ------
 
