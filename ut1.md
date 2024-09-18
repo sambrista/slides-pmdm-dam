@@ -198,6 +198,12 @@ Sello de calidad de Nintendo
 
 ------
 
+# Para saber más
+
+[Desarrollo en máquinas limitadas](https://www.youtube.com/watch?v=ZWQ0591PAxM)
+
+------
+
 A finales de esta década:
 
 - <!-- .element: class="fragment" -->Primera videoconsola portátil exitosa: Nintendo Game Boy
@@ -281,7 +287,7 @@ Algunas de las tendencias actuales son:
 - <!-- .element: class="fragment" -->Aventura: The Legend of Zelda Breath of the Wild, Detroit: Become Human
 - <!-- .element: class="fragment" -->RPG: Final Fantasy VII, The Witcher 3
 - <!-- .element: class="fragment" -->MMORPG: World of Warcraft, Guild Wars 2
-- <!-- .element: class="fragment" -->FPS: Call of Duty: Modern Warfare , DOOM
+- <!-- .element: class="fragment" -->FPS: Call of Duty: Modern Warfare, DOOM
 
 ------
 
