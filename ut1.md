@@ -351,8 +351,11 @@ Un motor de videojuegos es un conjunto de herramientas, bibliotecas y entornos d
 - <!-- .element: class="fragment" -->Recursos o assets: sprites, texturas, tiles, sonidos, imágenes...
 - <!-- .element: class="fragment" -->Lógica del juego: EL BUCLE
   - <!-- .element: class="fragment" -->Eventos del usuario
-  - <!-- .element: class="fragment" -->Colisiones
-  - <!-- .element: class="fragment" -->Animaciones
+  - <!-- .element: class="fragment" -->Actualizar el juego
+    - <!-- .element: class="fragment" -->Acciones del jugador
+    - <!-- .element: class="fragment" -->Eventos de otros elementos del juego
+    - <!-- .element: class="fragment" -->Colisiones
+    - <!-- .element: class="fragment" -->Animaciones
   - <!-- .element: class="fragment" -->Renderizar la escena (frame).
 
 ------
