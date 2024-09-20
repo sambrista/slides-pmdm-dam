@@ -338,12 +338,26 @@ Un motor de videojuegos es un conjunto de herramientas, bibliotecas y entornos d
 
 ------
 
-- A veces son diseñados por grandes compañías para videojuegos específicos (Unreal, CryEngine).
-- A veces son creados para que los desarrolladores los usen (Unity, Godot).
+- Creados por grandes compañías para videojuegos específicos (Unreal, CryEngine).
+- <!-- .element: class="fragment" -->Creados para desarrolladores (Unity, Godot).
 
 ------
 
-### 2.1. Videojuegos 2D y 3D
+### 2.1. Arquitectura de un videojuego
+
+------
+
+- Interfaz de usuario
+- <!-- .element: class="fragment" -->Recursos o assets: sprites, texturas, tiles, sonidos, imágenes...
+- <!-- .element: class="fragment" -->Lógica del juego: EL BUCLE
+  - <!-- .element: class="fragment" -->Eventos del usuario
+  - <!-- .element: class="fragment" -->Colisiones
+  - <!-- .element: class="fragment" -->Animaciones
+  - <!-- .element: class="fragment" -->Renderizar la escena (frame).
+
+------
+
+### 2.2. Videojuegos 2D y 3D
 
 ------
 
@@ -351,17 +365,23 @@ Un motor de videojuegos es un conjunto de herramientas, bibliotecas y entornos d
 
 ------
 
-- Los gráficos se representan en dos dimensiones: anchura y altura (x e y), y los personajes, objetos entornos... son ilustracionesestán dibujados en un entorno plano.
-- Para dibujar esos personajes, objetos entornos... se utilizan sprites o ilustraciones bidimensionales. 
-- Los entornos y personajes son planos, con perspectiva limitada (aunque algunos juegos usan técnicas como parallax para simular profundidad).
-- Las animaciones en 2D suelen ser hechas cuadro por cuadro o usando esqueletos 2D.
-- La perspectiva es fija, generalmente en una vista lateral (side-scrolling), de arriba hacia abajo (top-down) o vista isométrica.
-- El jugador normalmente no puede rotar la cámara; todo el juego ocurre dentro de un único plano.
-- Los movimientos de los personajes están limitados a los ejes X e Y, lo que significa que el jugador normalmente solo puede moverse de izquierda a derecha, arriba o abajo.
-- El desarrollo de juegos 2D suele ser más sencillo y rápido en términos de creación de activos visuales y programación, y los costos de producción pueden ser más bajos debido a la menor complejidad en la creación de gráficos y animaciones.
-- Las físicas y la inteligencia artificial son más simples porque el movimiento está limitado a dos ejes.
-- Generalmente, los juegos 2D requieren menos potencia de procesamiento y memoria gráfica. En consecuencia, pueden correr bien en dispositivos más antiguos o con menor capacidad.
-- Aunque algunos juegos 2D pueden ser visualmente impresionantes, su capacidad de inmersión está más limitada en comparación con los juegos 3D debido a la falta de profundidad visual. Sin embargo, muchos juegos 2D tienen estilos artísticos únicos y atractivos que no pueden replicarse en 3D.
+- Dos dimensiones: anchura y altura (x e y). Personajes, objetos entornos... son ilustraciones.
+- <!-- .element: class="fragment" -->Sprites o ilustraciones bidimensionales.
+- <!-- .element: class="fragment" -->Entornos y personajes son planos, con perspectiva limitada. Profundidad por parallax.
+- <!-- .element: class="fragment" -->Animaciones 2D por cuadro o con esqueletos 2D.
+
+------
+
+- Perspectiva fija. Vista lateral (side-scrolling), de arriba hacia abajo (top-down) o vista isométrica.
+- <!-- .element: class="fragment" -->El jugador normalmente no puede rotar la cámara.
+- <!-- .element: class="fragment" -->El jugador normalmente solo puede moverse de izquierda a derecha, arriba o abajo.
+- <!-- .element: class="fragment" -->Desarrollo más sencillo y rápido. Costos más bajos.
+
+------
+
+- Físicas e IA más simples debido al movimiento.
+- <!-- .element: class="fragment" -->Menos potencia de procesamiento y memoria gráfica. Requerimientos menores.
+- <!-- .element: class="fragment" -->Menos capacidad de inmersión, pero permiten estilos artísticos únicos y atractivos
 
 ------
 
@@ -371,23 +391,45 @@ Un motor de videojuegos es un conjunto de herramientas, bibliotecas y entornos d
 
 Los videojuegos 3D presentan las siguientes características:
 
-- Los gráficos se representan en tres dimensiones: ancho, alto y profundidad (X, Y y Z). Utilizan modelos tridimensionales para representar personajes y objetos, creados mediante mallas poligonales con texturas, que son capaces de moverse y rotar en un espacio tridimensional.
-- Los entornos 3D permiten cámaras que se pueden mover en diferentes ángulos, lo que ofrece una vista más dinámica. La cámara es dinámica y puede moverse libremente en diferentes direcciones, ofreciendo vistas en primera persona, tercera persona, o vistas desde ángulos personalizados.
-- Las animaciones en 3D suelen basarse en sistemas de esqueleto (rigging) y física simulada.
-- Los entornos pueden ser explorados en todas las direcciones, y la cámara puede rotar alrededor de los personajes.
-- Los personajes pueden moverse en los ejes X, Y y Z, permitiendo la exploración en cualquier dirección.
-- El desarrollo de juegos 3D es más complejo y requiere más recursos. Se necesitan artistas 3D, animadores, ingenieros especializados en gráficos y motores más potentes.
-- Las físicas y las colisiones en 3D son más complicadas de simular, ya que se debe tener en cuenta la profundidad y el movimiento en el eje Z.
-- Los entornos 3D requieren de optimización avanzada, como la reducción de polígonos, uso eficiente de luces y sombras, y técnicas para cargar datos de manera progresiva.
-- Los efectos de iluminación, sombras y texturas en 3D suelen ser más avanzados, contribuyendo a una experiencia más envolvente.
-- Los juegos 3D, debido a su complejidad gráfica, suelen demandar más recursos del sistema, como una GPU potente, más memoria y mejores procesadores.
-- Los motores de juegos 3D necesitan optimizaciones más avanzadas, como el uso de técnicas de renderizado como la occlusión culling (no dibuja objetos que no se ven porque otros elementos los tapan), mapeo de sombras y LOD (nivel de detalle) (simplifica el detalle de los objetos lejanos).
+- Tres dimensiones: ancho, alto y profundidad (x, y e z).
+- <!-- .element: class="fragment" -->Modelos tridimensionales para personajes y objetos. Mallas poligonales con texturas. Movimiento y rotación.
+- <!-- .element: class="fragment" -->Cámaras móviles. Primera persona, tercera persona, ángulos personalizados.
+- <!-- .element: class="fragment" -->Animaciones en 3D: esqueletos (rigging) y física simulada.
 
 ------
 
-!!!info Para saber más
-    La niebla que caracteriza la atmósfera del videojuego Silent Hill se creó para aligerar la carga del renderizado de las escenas.
+- Movimiento en los ejes x, y e z. Entornos explorables en todas las direcciones.
+- <!-- .element: class="fragment" -->Físicas y colisiones más complicadas.
+- <!-- .element: class="fragment" -->Desarrollo más complejo. Necesita motores más potentes, recursos y personal: artistas 3D, animadores, ingenieros especializados en gráficos...
 
 ------
 
-- Los gráficos en 3D pueden ofrecer una mayor inmersión al jugador, ya que se simula un entorno más realista donde el jugador puede explorar y ver objetos desde diferentes ángulos.
+- Complejidad gráfica. Necesitan GPU potente, memoria y procesador.
+- <!-- .element: class="fragment" -->Optimizaciones avanzadas: técnicas de renderizado (occlusión culling), mapeo de sombras, LOD...
+- <!-- .element: class="fragment" -->Experiencia más envolvente gracias a efectos de iluminación, sombras y texturas
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+Niebla en Silent Hill
+
+------
+
+#### 2.3. Tipos de motores y utilización
+
+------
+
+- Dimensiones gráficas
+- <!-- .element: class="fragment" -->Género
+- <!-- .element: class="fragment" -->Licencia
+- <!-- .element: class="fragment" -->Plataforma
+- <!-- .element: class="fragment" -->Precio
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Actividad 1.1.
