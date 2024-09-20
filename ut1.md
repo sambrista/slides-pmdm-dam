@@ -231,7 +231,7 @@ Ejemplos de videojuegos:
 - <!-- .element: class="fragment" -->Joysticks analógicos
 - <!-- .element: class="fragment" -->Vibración
 
-<!-- .element: class="fragment" -->... Pero la gran revolución fue...
+- <!-- .element: class="fragment" -->... Pero la gran revolución fue...
 
 ------
 
