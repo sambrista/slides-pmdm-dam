@@ -89,15 +89,15 @@ Programadores, diseñadores y:
 
 <!-- .slide: data-background-color="#dddddd" -->
 
-# Para saber más
-    
+**Para saber más**
+
 [Arcade Planet](https://arcadeplanet.es/)
 
 ------
 
 <!-- .slide: data-background-color="#dddddd" -->
 
-# Para saber más
+**Para saber más**
 
 [Los lugares más insólitos donde se ha ejecutado 'Doom': cajeros, tests de embarazo, robots de cocina, osciloscopios o 'Minecraft'](https://www.xataka.com/videojuegos/lugares-insolitos-donde-se-ha-ejecutado-doom-cajeros-tests-embarazo-robots-cocina-osciloscopios-minecraft)
 
@@ -169,7 +169,7 @@ Ejemplos de juegos son:
 
 <!-- .slide: data-background-color="#dddddd" -->
 
-# Para saber más
+**Para saber más**
 
 Dice la leyenda que hay millones de videojuegos de Atari ET el extraterrestre y Pacman enterrados en el desierto de Alamogordo
 
@@ -181,10 +181,9 @@ Dice la leyenda que hay millones de videojuegos de Atari ET el extraterrestre y 
 
 ------
 
-
 <!-- .slide: data-background-color="#dddddd" -->
 
-# Para saber más
+**Para saber más**
 
 Sello de calidad de Nintendo
 
@@ -192,13 +191,13 @@ Sello de calidad de Nintendo
 
 <!-- .slide: data-background-color="#dddddd" -->
 
-# Para saber más
+**Para saber más**
 
 1983 - 1992: Edad de oro del software español
 
 ------
 
-# Para saber más
+**Para saber más**
 
 [Desarrollo en máquinas limitadas](https://www.youtube.com/watch?v=ZWQ0591PAxM)
 
@@ -230,7 +229,6 @@ Ejemplos de videojuegos:
 - <!-- .element: class="fragment" -->CD-ROMs frente a cartuchos y disquettes
 - <!-- .element: class="fragment" -->Joysticks analógicos
 - <!-- .element: class="fragment" -->Vibración
-
 - <!-- .element: class="fragment" -->... Pero la gran revolución fue...
 
 ------
@@ -436,3 +434,124 @@ Niebla en Silent Hill
 <!-- .slide: data-background-color="#dddddd" -->
 
 # Actividad 1.1.
+
+------
+
+#### 2.4. Áreas de especialización, librerías y lenguajes de programación
+
+------
+
+##### Librerías gráficas
+
+------
+
+- OpenGL: API multiplataforma para gráficos 2D y 3D en tiempo real.
+- <!-- .element: class="fragment" -->DirectX: API de Microsoft con un fuerte enfoque en gráficos 3D, usada en Windows y Xbox.
+- <!-- .element: class="fragment" -->Vulkan: API de bajo nivel para gráficos de alto rendimiento, ideal para sistemas multihilo.
+- <!-- .element: class="fragment" -->Metal: API gráfica de bajo nivel exclusiva para macOS e iOS.
+- <!-- .element: class="fragment" -->SDL (Simple DirectMedia Layer): Librería para gráficos 2D, usada en motores más ligeros.
+- <!-- .element: class="fragment" -->WebGL: Versión de OpenGL para renderizado en navegadores web.
+
+------
+
+##### Librerías de física
+
+------
+
+Estas librerías permiten simular comportamientos físicos, como la colisión, la gravedad, y la interacción de objetos en un entorno 3D o 2D.
+
+------
+
+- Box2D: Motor de física 2D ampliamente utilizado en juegos indie y motores como Unity y Godot.
+- <!-- .element: class="fragment" -->Bullet Physics: Motor de física 3D utilizado en muchos motores, incluido Unreal Engine.
+- <!-- .element: class="fragment" -->Havok: Motor de física de alto rendimiento usado en juegos AAA como Halo, Assassin’s Creed, y más.
+- <!-- .element: class="fragment" -->PhysX: Librería de NVIDIA para simulación de física, integrada en Unreal Engine y Unity.
+- <!-- .element: class="fragment" -->Chipmunk2D: Motor de física ligero para juegos 2D, utilizado en juegos móviles y proyectos indie.
+
+------
+
+##### Lenguajes de programación
+
+------
+
+- C++: Es el lenguaje más utilizado en el desarrollo de videojuegos de alto rendimiento, especialmente en juegos AAA.
+- <!-- .element: class="fragment" -->C#: Es el lenguaje de programación principal en Unity, uno de los motores de juegos más populares, especialmente para juegos indie, móviles y en desarrollo multiplataforma.
+- <!-- .element: class="fragment" -->Python: Es muy popular en juegos casuales, prototipos, y motores de juego más pequeños.
+- <!-- .element: class="fragment" -->Java: Popular en el desarrollo de juegos móviles (especialmente en Android) y juegos para web.
+- <!-- .element: class="fragment" -->JavaScript:  se utiliza principalmente para el desarrollo de juegos web y móviles. Con la evolución de HTML5 y WebGL, es una opción viable para juegos 2D y 3D en navegadores.
+- <!-- .element: class="fragment" -->Lua: lenguaje ligero usado para scripting dentro de muchos motores de juegos, especialmente aquellos que necesitan un lenguaje embebido.
+
+------
+
+#### 2.5. Componentes de un motor de juego
+
+------
+
+- Motor gráfico (R)enderizado 2D/3D, Sombras, iluminación y efectos...).
+- Motor de física (Colisiones, Simulación física)
+
+- Motor de animación: Se encarga de generar las animaciones. Algunos ejemplos:
+  - Animación de personajes: Controla los esqueletos (rigs) y la interpolación de animaciones, tanto en modelos 3D como en sprites 2D.
+  - Interpolación y blending: Suaviza las transiciones entre diferentes animaciones, como caminar y correr.
+
+- Sistema de audio: Se encarga de la reproducción de sonidos y música.
+  - Efectos de sonido: Maneja la reproducción de sonidos específicos, como disparos o explosiones.
+  - Música: Maneja la reproducción de música de fondo.
+  - Audio espacial: Simula cómo se escucha el sonido en diferentes ubicaciones y distancias dentro del juego.
+
+- Sistema de entrada: Se encarga de recoger la entrada del usuario.
+  - Control de dispositivos: Maneja las entradas del jugador a través de teclados, ratones, controladores o dispositivos táctiles.
+  - Mapeo de controles: Permite asignar acciones en el juego a diferentes botones o teclas.
+
+- Inteligencia Artificial (IA): Se encarga de dotar de inteligencia a los NPC, enemigos...
+  - Navegación: Determina cómo los NPCs (personajes no jugables) se mueven y navegan por el entorno del juego.
+  - Comportamiento: Define cómo actúan y reaccionan los NPCs en función de las acciones del jugador o del entorno.
+
+- Sistema de scripts: Permite personalizar con código el desarrollo del videojuego y el comportamiento de los elementos.
+  - Lógica del juego: Permite que los desarrolladores definan las reglas y mecánicas del juego a través de un lenguaje de scripting como Lua, Python o C#.
+  - Interactividad: Controla los eventos y respuestas dentro del juego en función de las acciones del jugador.
+
+- Sistema de redes (opcional): Da soporte al juego en línea.
+  - Multijugador: Maneja la comunicación entre jugadores en diferentes dispositivos o ubicaciones a través de internet o red local.
+  - Sincronización de estado: Asegura que los estados del juego sean coherentes para todos los jugadores en un entorno multijugador.
+
+- Herramientas de desarrollo: Herramientas auxiliares para desarrollar el juego
+  - Editor de niveles: Permite crear y diseñar mapas, niveles o entornos del juego.
+  - Herramientas de depuración: Ayuda a identificar y resolver errores o problemas en el juego.
+  - Gestión de recursos: Maneja los activos del juego (gráficos, sonidos, modelos, etc.) y su integración dentro del motor.
+
+- Sistema de interfaz de usuario (UI): Gestiona la interacción con el usuario.
+  - Menús y HUD: Permite la creación de interfaces gráficas como menús, botones, marcadores, y barras de vida.
+  - Interacción con el jugador: Facilita la creación de interfaces para que el jugador interactúe con el juego, como inventarios o diálogos.
+
+- Gestor de escenas
+  - Cambio de escenas: Maneja la transición entre diferentes escenas o niveles del juego.
+  - Cargado dinámico: Permite cargar y descargar partes del entorno o escenas mientras el juego sigue en ejecución.
+
+- Sistema de partículas: Simula sistemas de partículas para efectos como fuego, humo, explosiones, chispas, etc.
+
+------
+
+#### 2.6. Aplicación de modificaciones sobre juegos existentes (Mods)
+
+------
+
+Los mods son alteraciones hechas por jugadores o desarrolladores externos al contenido original de un videojuego.
+
+------
+
+- Mods estéticos.
+- <!-- .element: class="fragment" -->JMods de jugabilidad.
+- <!-- .element: class="fragment" -->JExpansiones.
+- <!-- .element: class="fragment" -->JConversiones totales.
+- <!-- .element: class="fragment" -->JMods de calidad de vida.
+
+- Mods y motores.
+
+------
+
+<!-- .slide: data-background-color="#dddddd" -->
+
+# Para saber más
+
+Doom, y [ChiquitoDOOM](https://www.doomworld.com/idgames/sounds/chiquito). [Vídeo](https://www.youtube.com/watch?v=lXepPTAekiU)
